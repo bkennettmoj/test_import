@@ -1,9 +1,19 @@
-# Local .terraform directories
 **/.terraform/*
-
+.env*
+.terraform
+be.tfvars
+beconf.tfvars
+*.tfstate*
+*.tfplan
+graph.png
+node_modules/
+sshkey.pub
+*.swp
+*.pyc
+config.tf.json
+*.zip
 # .tfstate files
 *.tfstate
-*.tfstate.*
 
 # Crash log files
 crash.log
